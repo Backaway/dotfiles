@@ -1,0 +1,35 @@
+[user]
+	name = whz
+	email = junevimer@gmail.com
+[core]
+	editor = vim
+; [color]
+	; ui = auto
+[color]
+	diff = auto
+	branch = auto
+	status = auto
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow
+	frag = magenta
+	old = red
+	new = green
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[alias]
+    gr = log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	mylog = log --pretty=format:\"%h - %an, %ar : %s\"
+	mybr = log --pretty=format:\"%h - %an, %ar : %s\" --graph
+
