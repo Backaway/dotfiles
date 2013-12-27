@@ -87,6 +87,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias dstat='dstat -cdlmnpsy'
 alias vi='vim'
+alias minicom='sudo env LANG=en_US minicom'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
