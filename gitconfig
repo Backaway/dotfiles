@@ -3,8 +3,8 @@
 	email = junevimer@gmail.com
 [core]
 	editor = vim
-; [color]
-	; ui = auto
+[color]
+	ui = auto
 [color]
 	diff = auto
 	branch = auto
@@ -24,12 +24,16 @@
 	untracked = cyan
 [alias]
     gr = log --graph --full-history --all --color --pretty=tformat:"%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s%x20%x1b[33m(%an)%x1b[0m"
+	mylog = log --pretty=format:\"%h - %an, %ar : %s\"
+	mybr = log --pretty=format:\"%h - %an, %ar : %s\" --graph
 	co = checkout
 	br = branch
 	ci = commit
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
-	mylog = log --pretty=format:\"%h - %an, %ar : %s\"
-	mybr = log --pretty=format:\"%h - %an, %ar : %s\" --graph
 
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = No
