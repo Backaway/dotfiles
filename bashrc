@@ -88,6 +88,7 @@ alias l='ls -CF'
 alias dstat='dstat -cdlmnpsy'
 alias vi='vim'
 alias minicom='sudo env LANG=en_US minicom'
+alias lvim="vim -c \"normal '0\""
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -116,6 +117,7 @@ function parse_git_dirty {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/[\1$(parse_git_dirty)]/"
 }
 export PS1='\u@\h:\w\[\e[33m\]$(parse_git_branch)\[\e[0m\]$ '
+export PATH=~/.cabal/bin:$PATH
 
 export ENCODE="/home/whz/workdir/dm365/dvsdk_2_10_01_18/dvsdk_demos_2_10_00_17/dm365/encode/"
 export DEV="/home/whz/workdir/dm365/dev_app/"

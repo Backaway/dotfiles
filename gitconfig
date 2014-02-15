@@ -32,6 +32,7 @@
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
+	ncommit= commit --autho=\"whz <27185499@qq.com>\"
 
 [diff]
 	tool = vimdiff
