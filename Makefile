@@ -1,3 +1,3 @@
 init:
-		ln -fs /home/june/dotfiles/gitconfig ~/.gitconfig
-		ln -fs /home/june/dotfiles/bashrc ~/.bashrc
+		ln -fs /home/whz/dotfiles/gitconfig ~/.gitconfig
+		ln -fs /home/whz/dotfiles/bashrc ~/.bashrc
