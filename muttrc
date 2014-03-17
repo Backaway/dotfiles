@@ -1,0 +1,14 @@
+set sendmail = "/usr/bin/msmtp"
+set use_from = yes
+set realname = "June"
+
+# 邮箱地址
+set from=271854899@qq.com
+set envelope_from = yes
+
+# 编码
+set charset="utf-8"
+#set send_charset="gb2312"
+set send_charset="utf-8"
+set locale = "zh_CN.UTF-8"
+set content_type = "text/html\;charset=utf-8"
