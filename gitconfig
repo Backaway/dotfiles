@@ -1,8 +1,9 @@
 [user]
-	name = whz
+	name = Huizhou Wang
 	email = junevimer@gmail.com
 [core]
 	editor = vim
+	excludesfile = /Users/Junevimer/.gitignore_global
 [color]
 	ui = auto
 [color]
@@ -37,6 +38,17 @@
     d = difftool
 
 [diff]
-	tool = vimdiff
+	tool = mvimdiff
+[difftool "mvimdiff"]
+    cmd = mvim -f -d \"$LOCAL\" \"$REMOTE\"
 [difftool]
 	prompt = No
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
