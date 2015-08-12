@@ -1,9 +1,9 @@
 [user]
 	name = Huizhou Wang
-	email = junevimer@gmail.com
+	email = whz2020@163.com
 [core]
 	editor = vim
-	excludesfile = /Users/Junevimer/.gitignore_global
+	excludesfile = $HOME/.gitignore_global
 [color]
 	ui = auto
 [color]

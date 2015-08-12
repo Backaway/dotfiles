@@ -77,9 +77,16 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# ls
-export LSCOLORS="exfxcxdxbxexexabagacad"
-alias ls='ls -G'
+# ls for solarized theme
+# export LSCOLORS="exfxcxdxbxexexabagacad"
+# alias ls='ls -G'
+
+# ls for molozaried theme
+if brew list | grep coreutils > /dev/null ; then
+  PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+  alias ls='ls -F --show-control-chars --color=auto'
+  eval `gdircolors -b $HOME/.dircolors`
+fi
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -89,10 +96,14 @@ alias ls='ls -G'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# 
 
+# vim configure
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
-alias vim='mvim'
+# use Vim
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+# use Macvim
+# alias vim='mvim'
+
 alias cls='clear'
 alias ll='ls -l'
 alias la='ls -a'
