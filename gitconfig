@@ -38,17 +38,20 @@
     d = difftool
 
 [diff]
-	tool = mvimdiff
-[difftool "mvimdiff"]
-    cmd = mvim -f -d \"$LOCAL\" \"$REMOTE\"
+    tool = vimdiff
 [difftool]
 	prompt = No
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+    path = 
+; TODU: for Macvim
+; [difftool "mvimdiff"]
+    ; cmd = mvim -f -d \"$LOCAL\" \"$REMOTE\"
+; [mergetool "sourcetree"]
+    ; cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+    ; trustExitCode = true
 [filter "media"]
 	clean = git-media-clean %f
 	smudge = git-media-smudge %f
+[merge]
+	tool = vimdiff
