@@ -98,9 +98,9 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # vim configure
-alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
+# alias vi='/Applications/MacVim.app/Contents/MacOS/Vim'
 # use Vim
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+# alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 # use Macvim
 # alias vim='mvim'
 
