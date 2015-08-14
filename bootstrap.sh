@@ -1,6 +1,7 @@
 #!/bin/sh
 echo "init:" > Makefile
 echo "\t\tln -fs `pwd`/gitconfig ~/.gitconfig" >> Makefile
+echo "\t\tln -fs `pwd`/svnconfig ~/.subversion/config" >> Makefile
 echo "\t\tln -fs `pwd`/zshrc ~/.zshrc" >> Makefile
 # for solarized theme
 # echo "\t\tln -fs `pwd`/dircolors.solarized ~/.dircolors" >> Makefile
