@@ -120,6 +120,7 @@ alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
+alias cat=ccat
 
 export LC_ALL=en_US.UTF-8  
 export LANG=en_US.UTF-8
