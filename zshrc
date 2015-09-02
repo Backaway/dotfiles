@@ -1,18 +1,17 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export PATH=$PATH:~/bin:/opt/local/bin
-export PATH="$PATH:/Users/June/Applications/ns-allinone-2.35/bin:/Users/June/Applications/ns-allinone-2.35/tcl8.5.10/unix:/Users/June/Applications/ns-allinone-2.35/tk8.5.10/unix" 
-export PATH=$PATH:/usr/local/mysql/bin
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/Users/June/Applications/ns-allinone-2.35/otcl-1.14, /Users/June/Workdir/Applications/ns-allinone-2.35/lib" 
-export TCL_LIBRARY="$TCL_LIBRARY:/Users/June/Workdir/ns-allinone-2.35/tcl8.5.10/library"
+export PATH=$PATH:~/bin:/opt/local/bin:/usr/local/mysql/bin
+export M3_HOME=~/Applications/apache-maven-3.3.3
+export PATH="$PATH:$M3_HOME/bin"
 export DOCKER_HOST=tcp://192.168.59.103:2375
-
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}:'
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="wanghuizhou"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

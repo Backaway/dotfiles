@@ -1,6 +1,6 @@
 [user]
 	name = Huizhou Wang
-	email = whz2020@163.com
+	email = whz.job@gmail.com
 [core]
 	editor = vim
 	excludesfile = $HOME/.gitignore_global
@@ -42,8 +42,8 @@
 [difftool]
 	prompt = No
 [difftool "sourcetree"]
-    cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-    path = 
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
 ; TODU: for Macvim
 ; [difftool "mvimdiff"]
     ; cmd = mvim -f -d \"$LOCAL\" \"$REMOTE\"
@@ -55,3 +55,6 @@
 	smudge = git-media-smudge %f
 [merge]
 	tool = vimdiff
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
