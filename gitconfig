@@ -3,7 +3,7 @@
 	email = whz.job@gmail.com
 [core]
 	editor = vim
-	excludesfile = $HOME/.gitignore_global
+	excludesfile = /Users/June/.gitignore_global
 [color]
 	ui = auto
 [color]
