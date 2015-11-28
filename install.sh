@@ -4,7 +4,7 @@ OS=`uname`
 today=`date +%Y%m%d`
 
 echo "######################################################################"
-echo "     Installing Backaway's Configuration for $USER's $OS System"
+echo "     Install Backaway's Configuration to $USER's $OS System"
 echo "######################################################################"
 
 case $OS in
