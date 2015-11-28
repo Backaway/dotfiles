@@ -34,7 +34,6 @@
 	st = status
 	unstage = reset HEAD --
 	last = log -1 HEAD
-	ncommit= commit --autho=\"Backaway <27185499@qq.com>\"
     d = difftool
 
 [diff]
@@ -46,3 +45,9 @@
 	smudge = git-media-smudge %f
 [merge]
 	tool = vimdiff
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

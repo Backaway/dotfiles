@@ -17,7 +17,7 @@ sudo ln -fs `pwd`/diffwrap.sh /usr/local/bin/diffwrap.sh
 
 # for zsh
 ln -fs `pwd`/zshrc ~/.zshrc
-ln -fs `pwd`/wanghuizhou.zsh-theme ~/.oh-my-zsh/themes/wanghuizhou.zsh-theme
+ln -fs `pwd`/backaway.zsh-theme ~/.oh-my-zsh/themes/backaway.zsh-theme
 
 # for YouCompleteMe
 ln -fs `pwd`/ycm_c_conf.py ~/.ycm_c_conf.py

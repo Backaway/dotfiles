@@ -1,7 +1,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export PATH=$PATH:$HOME/Bin:/opt/local/bin:/usr/local/mysql/bin:~/Applications/apache-ant-1.9.6/bin
-export DOCKER_HOST=tcp://192.168.59.103:2375
+export PATH=$PATH:$HOME/Bin:/opt/local/bin:/usr/local/mysql/bin:~/Applications/apache-ant-1.9.6/bin:/usr/local/sbin
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+# export DOCKER_HOST=tcp://192.168.59.103:2375
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
 export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}:'
 
@@ -112,4 +113,4 @@ alias cat=ccat
 
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-export PATH="/usr/local/sbin:$PATH"
+
