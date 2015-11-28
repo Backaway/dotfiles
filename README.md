@@ -5,13 +5,9 @@
 Personal configuration for linux and os x users. Following configuration are included.
 
 - Git
-
 - Subversion
-
-- molokai/solarized for ls
-
-- YouCompleteMe configuration
-
+- molokai/solarized theme for ls
+- YouCompleteMe
 - Zsh
 
 ## Dependences
