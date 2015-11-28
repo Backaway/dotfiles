@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="wanghuizhou"
+ZSH_THEME="backaway"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -52,19 +52,11 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="$PATH:/home/june/Applications/ant/bin:/home/june/Applications/flume/bin:/home/june/Applications/maven/bin:/home/june/bin"
-export ANT_HOME="/home/june/Hyhcy/ant"
-export CLASSPATH=.:/home/june/Applications/tomcat/lib/servlet-api.jar
-export JAVA_HOME=/home/june/Applications/jdk1.7.0_80
-export HADOOP_PREFIX=/usr/local/hadoop
-export HADOOP_COMMON_HOME=$HADOOP_PREFIX
-export HADOOP_HDFS_HOME=$HADOOP_PREFIX
-export HADOOP_MAPRED_HOME=$HADOOP_PREFIX
-export HADOOP_YARN_HOME=$HADOOP_PREFIX
-export HADOOP_CONF_DIR=$HADOOP_PREFIX/etc/hadoop
-export PATH=$PATH:$HADOOP_PREFIX/bin:$HADOOP_PREFIX/sbin
-export FLUME=/home/june/Applications/flume
+export JAVA_HOME=$HOME/Applications/jdk1.7.0_80
+export ANT_HOME=$HOME/Applications/apache-ant-1.9.6
+export MAVEN_HOME=$HOME/Applications/apache-maven-3.3.9
 export SVN_EDITOR=/usr/bin/vim
+export PATH="$PATH:$HOME/Bin:$ANT_HOME/bin:$MAVEN_HOME/bin"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -82,21 +74,15 @@ export SVN_EDITOR=/usr/bin/vim
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-# ls for solarized theme
-# export LSCOLORS="exfxcxdxbxexexabagacad"
-# alias ls='ls -G'
-
-# ls for molozaried theme
+# ls
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ls='ls --color=auto'
-    #alias dir='dir --color=auto'
-    #alias vdir='vdir --color=auto'
-
     alias grep='grep --color=auto'
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -107,11 +93,15 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias cls='clear'
-alias ll='ls -l'
-alias la='ls -a'
+# for the fuck
+# eval $(thefuck --alias)
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
 alias l='ls -CF'
-alias ltr='ls -ltr'
+alias cls='clear'
+alias la='ls -a'
 alias javac="javac -J-Dfile.encoding=utf8"
 alias grep="grep --color=auto"
 alias -s html=mate   # 在命令行直接输入后缀为 html 的文件名，会在 TextMate 中打开
@@ -125,4 +115,3 @@ alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
-alias cat='ccat'

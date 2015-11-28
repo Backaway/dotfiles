@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/Wiki
+nohup gollum --h1-title > gollum.log 2>&1 &

@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /etc/openvpn
+echo "---> Stop openvpn - -"
+sudo pkill openvpn
+echo "---> Start xiaoshan dianxin VPN ^_^"
+sudo nohup openvpn --config xiaoshan_dianxin.ovpn --ca cmccrd_ca.crt > ~/Logs/openvpn 2>&1 &
