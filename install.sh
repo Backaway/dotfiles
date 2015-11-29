@@ -38,9 +38,9 @@ ln -fs $ROOT/Bin $HOME/Bin
 
 echo "---> Installing molokai theme for ls command"
 # for solarized theme
-# ln -fs `pwd`/dircolors.solarized $HOME/.dircolors" >> Makefile
+# ln -fs $ROOT/Dircolors/dircolors.solarized $HOME/.dircolors
 # for molokai theme
-# ln -fs `pwd`/dircolors.molokai.blue $HOME/.dircolors
+# ln -fs $ROOT/Dircolors/dircolors.molokai.blue $HOME/.dircolors
 ln -fs $ROOT/Dircolors/dircolors.molokai.red $HOME/.dircolors
 
 echo "---> Installing git configuration"
