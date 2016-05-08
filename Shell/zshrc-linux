@@ -54,9 +54,14 @@ source $ZSH/oh-my-zsh.sh
 
 export JAVA_HOME=$HOME/Applications/jdk1.7.0_80
 export ANT_HOME=$HOME/Applications/apache-ant-1.9.6
-export MAVEN_HOME=$HOME/Applications/apache-maven-3.3.9
+export TOMCAT_HOME=$Home/applications/apache-tomcat-7.0.68
+export M2_HOME=$HOME/Applications/apache-maven-3.3.9
+export MAVEN_OPTS="-Xms128m -Xmx512m"
 export SVN_EDITOR=/usr/bin/vim
-export PATH="$PATH:$HOME/Bin:$ANT_HOME/bin:$MAVEN_HOME/bin"
+export ZOOKEEPER_HOME=$HOME/Applications/zookeeper-3.4.6
+export JSTORM_HOME=$HOME/Applications/jstorm-2.1.0/jstorm
+export PATH=$PATH:$HOME/Bin:$ANT_HOME/bin:$M2_HOME/bin:$ZOOKEEPER_HOME/bin
+export HISTTIMEFORMAT="%Y-%m-%d_%H:%M:%S "
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
