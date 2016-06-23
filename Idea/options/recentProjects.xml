@@ -1,0 +1,43 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/Java-develop" />
+        <option value="$USER_HOME$/workspace/CC/cmccim/trunk/mrs" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/workspace/Java-develop" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/workspace/Java-develop" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/workspace/CC/cmccim/trunk/mrs">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.972" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1464156925521" />
+              <option name="buildTimestamp" value="1463155200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/workspace/Java-develop">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IU-145.972" />
+              <option name="productionCode" value="IU" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1464233826022" />
+              <option name="buildTimestamp" value="1463155200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/workspace" />
+  </component>
+</application>

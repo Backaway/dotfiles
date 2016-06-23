@@ -45,15 +45,16 @@ ZSH_THEME="backaway"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git autojump osx brew git-flow git-extras svn)
+plugins=(ant git autojump osx brew git-flow git-extras svn)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 #
-export ANT_HOME=~/Applications/apache-ant-1.9.6
+export ANT_HOME=$HOME/Applications/Ant
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
 export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}:'
 export PATH=$PATH:/usr/local/sbin:$HOME/Bin:/usr/local/mysql/bin:$ANT_HOME/bin
+export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -91,6 +92,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias xiaoshan="ssh root@192.168.12.181"
 alias cls='clear'
 alias ll='ls -l'
 alias la='ls -a'
@@ -107,3 +109,9 @@ alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
 alias cat=ccat
+alias fgw=proxychains4
+
+alias ssh1='ssh root@centos-01'
+alias ssh2='ssh root@centos-02'
+alias ssh3='ssh root@centos-03'
+alias ssh4='ssh root@centos-04'

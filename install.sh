@@ -46,7 +46,7 @@ ln -fs $ROOT/Dircolors/dircolors.molokai.red $HOME/.dircolors
 echo "---> Installing git configuration"
 echo "     Please change your personal information in $HOME/.gitconfig"
 ln -fs $ROOT/RCS/gitconfig $HOME/.gitconfig
-ln -fs $ROOT/RCS/gitignore_global $HOME/.gitignore_global
+ln -fs $ROOT/RCS/gitignore_global $HOME/.gitignore
 
 echo "---> Installing subversion configuration"
 echo "     You have to enter root password to make svn vimdiff available"

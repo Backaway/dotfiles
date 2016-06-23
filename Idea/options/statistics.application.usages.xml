@@ -1,0 +1,72 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="Java-develop" values="ECMAScript 5.1" collectionTime="1464243773944" />
+      <project id="mrs" values="ECMAScript 5.1" collectionTime="1464164432055" />
+    </group>
+    <group name="module type">
+      <project id="Java-develop" values="JAVA_MODULE" collectionTime="1464243773832" />
+      <project id="mrs" values="JAVA_MODULE" collectionTime="1464164432002" />
+    </group>
+    <group name="vcs">
+      <project id="Java-develop" values="Git" collectionTime="1464243773831" />
+      <project id="mrs" values="svn" collectionTime="1464164432002" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="mrs" values="Application" collectionTime="1464164432002" />
+    </group>
+    <group name="file-type">
+      <project id="Java-develop" values="PLAIN_TEXT,Manifest,Protobuf,Properties,Eclipse,JAVA,CLASS,XML" collectionTime="1464243773877" />
+      <project id="mrs" values="C++,IDEA_PROJECT,CLASS,SQL,JavaScript,CSS,Eclipse,ARCHIVE,XML,Images,JSP,JAVA,IDEA_MODULE,PLAIN_TEXT,HTML,Properties,UNKNOWN" collectionTime="1464164432012" />
+    </group>
+    <group name="spring">
+      <project id="Java-develop" values="xmlNS_code.alibabatech.com/schema/dubbo,fileset_configFiles5,xmlNS_code.alibabatech.com/schema/dubbo,fileset_xmlContext,fileset_autodetect_NONE,xmlNS_code.alibabatech.com/schema/dubbo,xmlNS_code.alibabatech.com/schema/dubbo" collectionTime="1464243774044" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="Java-develop" values="Project,Project" collectionTime="1464243773944" />
+      <project id="mrs" values="Project,Project" collectionTime="1464164432055" />
+    </group>
+    <group name="Git">
+      <project id="Java-develop" values="data.local.branches.count.1,config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.push.update.all.roots.enabled,data.remotes.in.project.1,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.save.policy.STASH,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,config.ssh.enabled,config.warn.about.detached.enabled,data.remote.branches.count.1" collectionTime="1464243773883" />
+      <project id="mrs" values="config.cherry-pick.autocommit.disabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.save.policy.STASH,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled" collectionTime="1464164432054" />
+    </group>
+    <group name="libraries">
+      <project id="mrs" values="spring" collectionTime="1464164432049" />
+    </group>
+    <group name="frameworks">
+      <project id="Java-develop" values="protobuf,Spring" collectionTime="1464243773832" />
+    </group>
+    <group name="language-level">
+      <project id="Java-develop" values="JDK_1_3" collectionTime="1464243773881" />
+      <project id="mrs" values="JDK_1_7" collectionTime="1464164432054" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="execute.Application.Coverage" count="1" />
+      <entry feature="execute.Application.Run" count="14" />
+      <entry feature="ide.settings.Appearance" count="1" />
+      <entry feature="ide.settings.Code_Completion" count="1" />
+      <entry feature="ide.settings.Compiler" count="1" />
+      <entry feature="ide.settings.Java_Compiler" count="1" />
+      <entry feature="ide.settings.Keymap" count="1" />
+      <entry feature="ide.settings.Maven_environment" count="1" />
+      <entry feature="ide.settings.Plugins" count="5" />
+      <entry feature="ide.settings.Project_Structure" count="10" />
+      <entry feature="ide.settings.Version_Control" count="1" />
+      <entry feature="idea.caches.invalidated" count="2" />
+      <entry feature="ideaapp.started" count="11" />
+      <entry feature="spring.SpringConfigurationCheck.FileCount.xml" count="40" />
+      <entry feature="terminal.mac" count="12" />
+      <entry feature="tips.of.the.day.next" count="16" />
+      <entry feature="uml.ShowDiagram.DIFF.popup" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Documentation" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.ImportProject" count="5" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="1" />
+      <entry feature="welcome.screen.null" count="1" />
+    </counts>
+  </component>
+</application>

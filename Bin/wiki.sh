@@ -10,6 +10,8 @@ start(){
 		mkdir -p $LOG_DIR
 	fi
 	nohup  gollum --h1-title --port 8080 --config config.rb --no-edit > $LOG_DIR/gollum.log 2>&1 &
+	cd ../Self
+	nohup gollum --h1-title --port 8000 --config config.rb --no-edit > $LOG_DIR/gollum.log 2>&1 &
 }
 
 stop(){

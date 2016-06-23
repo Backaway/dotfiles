@@ -1,0 +1,31 @@
+<application>
+  <component name="DimensionService">
+    <location key="SettingsEditor.1280.-280.1920.1080" x="1461" y="-57" />
+    <location key="FileChooserDialogImpl.1280.-280.1920.1080" x="1526" y="-132" />
+    <location key="NewModule_or_Project.wizard.1280.-280.1920.1080" x="1548" y="-149" />
+    <location key="WELCOME_SCREEN.0.0.1280.800" x="1940" y="230" />
+    <location key="com.intellij.ide.util.TipDialog.1280.-280.1920.1080" x="1819" y="36" />
+    <location key="#Project_Structure.1280.-280.1920.1080" x="1668" y="-140" />
+    <location key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate.1280.-280.1920.1080" x="2002" y="122" />
+    <location key="AbstractVcsHelper.FilterDialog.org.jetbrains.idea.svn.history.SvnVersionFilterComponent.1280.-280.1920.1080" x="2085" y="126" />
+    <location key="#Browse_Repositories.1280.-280.1920.1080" x="1545" y="-218" />
+    <location key="DetectedRootsChooserDialog.1280.-280.1920.1080" x="1942" y="1" />
+    <location key="#com.intellij.ide.util.TreeClassChooserDialog.1280.-280.1920.1080" x="1942" y="20" />
+    <location key="EditParametersPopupWindow.1280.-280.1920.1080" x="1891" y="104" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.1280.-280.1920.1080" x="1562" y="-211" />
+    <location key="FileChooserDialogImpl.0.0.1280.800" x="444" y="105" />
+    <location key="new project wizard.0.0.1280.800" x="166" y="25" />
+    <location key="WELCOME_SCREEN.1280.-280.1920.1080" x="2240" y="230" />
+    <location key="ProcessPopupWindow.1280.-280.1920.1080" x="2960" y="499" />
+    <location key="#com.intellij.ide.util.MemberChooser.1280.-280.1920.1080" x="2053" y="-15" />
+    <location key="new project wizard.1280.-280.1920.1080" x="1750" y="-62" />
+    <location key="#Browse_JetBrains_Plugins_.1280.-280.1920.1080" x="1567" y="-58" />
+    <location key="#Maven_environment.1280.-280.1920.1080" x="1714" y="23" />
+    <size key="GridCell.Tab.0.left.1280.-280.1920.1080" width="918" height="269" />
+    <size key="GridCell.Tab.0.center.1280.-280.1920.1080" width="918" height="269" />
+    <size key="GridCell.Tab.0.right.1280.-280.1920.1080" width="918" height="269" />
+    <size key="GridCell.Tab.0.bottom.1280.-280.1920.1080" width="918" height="269" />
+    <size key="ProcessPopupWindow.1280.-280.1920.1080" width="199" height="175" />
+    <size key="javadoc.popup.1280.-280.1920.1080" width="481" height="170" />
+  </component>
+</application>
