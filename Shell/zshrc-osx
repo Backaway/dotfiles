@@ -45,7 +45,7 @@ ZSH_THEME="backaway"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(ant git autojump osx brew git-flow git-extras svn docker)
+plugins=(ant git autojump osx brew git-flow git-extras svn docker mvn spring)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -53,11 +53,11 @@ source $ZSH/oh-my-zsh.sh
 export ANT_HOME=$HOME/Applications/Ant
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
 export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}:'
-export PATH=$PATH:/usr/local/sbin:$HOME/Bin:/usr/local/mysql/bin:$ANT_HOME/bin
+export PATH=$PATH:/usr/local/sbin:$HOME/Bin:/usr/local/mysql/bin:$ANT_HOME/bin:/usr/local/opt/gnu-sed/libexec/gnubin
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 # Docker Fix https://github.com/docker/kitematic/issues/1010
-eval "$(docker-machine env default)"
+# eval "$(docker-machine env default)"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -95,7 +95,6 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias xiaoshan="ssh root@192.168.12.181"
 alias cls='clear'
 alias ll='ls -l'
 alias la='ls -a'
@@ -118,3 +117,5 @@ alias ssh1='ssh root@centos-01'
 alias ssh2='ssh root@centos-02'
 alias ssh3='ssh root@centos-03'
 alias ssh4='ssh root@centos-04'
+alias sshlcdev='ssh root@172.23.27.131'
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"

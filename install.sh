@@ -11,6 +11,7 @@ case $OS in
 	Darwin )
 		echo "---> Installing zsh configuration for $OS"
 		ln -fs $ROOT/Shell/zshrc-osx $HOME/.zshrc
+        ln -fs $ROOT/Environment/environment.plist $HOME/Library/LaunchAgents/environment.plist
 		;;
 	Linux )
 		echo "---> Installing zsh configuration for $OS"
