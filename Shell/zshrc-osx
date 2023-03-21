@@ -45,7 +45,7 @@ ZSH_THEME="backaway"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(ant git autojump osx brew git-flow git-extras svn docker mvn spring)
+plugins=(ant git autojump macos brew git-flow git-extras svn docker mvn spring)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
