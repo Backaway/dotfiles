@@ -118,4 +118,5 @@ alias ssh2='ssh root@centos-02'
 alias ssh3='ssh root@centos-03'
 alias ssh4='ssh root@centos-04'
 alias sshlcdev='ssh root@172.23.27.131'
+# cpan install local::lib module
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
