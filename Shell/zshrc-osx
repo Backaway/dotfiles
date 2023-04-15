@@ -51,7 +51,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 #
 export ANT_HOME=$HOME/Applications/Ant
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_361.jdk/Contents/Home
 export PS4='+${BASH_SOURCE}:${LINENO}:${FUNCNAME[0]}:'
 export PATH=$PATH:/usr/local/sbin:$HOME/Bin:/usr/local/mysql/bin:$ANT_HOME/bin:/usr/local/opt/gnu-sed/libexec/gnubin
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles

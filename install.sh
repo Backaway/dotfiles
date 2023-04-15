@@ -55,7 +55,7 @@ mkdir -p $HOME/.subversion
 ln -fs $ROOT/RCS/svnconfig $HOME/.subversion/config
 sudo ln -fs $ROOT/RCS/diffwrap.sh /usr/local/bin/diffwrap.sh
 
-echo "---> Installing YouCompleteMe's configure file"
-ln -fs $ROOT/YouCompleteMe/ycm_c_conf.py $HOME/.ycm_c_conf.py
-ln -fs $ROOT/YouCompleteMe/ycm_cpp_conf.py $HOME/.ycm_cpp_conf.py
-ln -fs $ROOT/YouCompleteMe/ycm_extra_conf.py $HOME/.ycm_extra_conf.py
+# echo "---> Installing YouCompleteMe's configure file"
+# ln -fs $ROOT/YouCompleteMe/ycm_c_conf.py $HOME/.ycm_c_conf.py
+# ln -fs $ROOT/YouCompleteMe/ycm_cpp_conf.py $HOME/.ycm_cpp_conf.py
+# ln -fs $ROOT/YouCompleteMe/ycm_extra_conf.py $HOME/.ycm_extra_conf.py
